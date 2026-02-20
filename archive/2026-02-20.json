@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "GLOBAL MARITIME CHOKEPOINT MONITOR",
+    "generated_utc": "2026-02-20 12:33:25 UTC",
+    "date": "2026-02-20",
+    "model_version": "v1.0-locked"
+  },
+  "global": {
+    "global_index": 14,
+    "delta_24h": 14,
+    "tier": "TIER 0 \u2014 NORMAL FLOW",
+    "composite_energy_flow_risk": 14,
+    "weighted_exposure_index": 14,
+    "operational_risk": 14,
+    "structural_risk": 13,
+    "contagion_risk": "LOW",
+    "freight_premium_signal": false,
+    "insurance_premium_signal": false,
+    "top_24h_mover": "No material node movement"
+  },
+  "executive_summary": "No systemic maritime constraint developing. Localized weather friction remains below disruption thresholds. Conditions do not justify freight or insurance repricing.",
+  "chokepoints": [
+    {
+      "name": "Strait of Hormuz",
+      "category": "Core Oil Artery",
+      "risk_score": 20,
+      "temperature_c": 21.8,
+      "wind_kmh": 2.5,
+      "visibility_m": 24140,
+      "driver": "Wind",
+      "impact_level": "Minor",
+      "impact_summary": "Increased caution required."
+    },
+    {
+      "name": "Strait of Malacca",
+      "category": "Core Oil Artery",
+      "risk_score": 15,
+      "temperature_c": 26.6,
+      "wind_kmh": 8.5,
+      "visibility_m": 24140,
+      "driver": "Precipitation",
+      "impact_level": "Minor",
+      "impact_summary": "Reduced situational awareness."
+    },
+    {
+      "name": "Suez Canal",
+      "category": "Core Oil Artery",
+      "risk_score": 5,
+      "temperature_c": 17.0,
+      "wind_kmh": 6.6,
+      "visibility_m": 62260,
+      "driver": "Wind",
+      "impact_level": "None",
+      "impact_summary": "No material constraint."
+    },
+    {
+      "name": "Bab el-Mandeb",
+      "category": "Strategic Trade Artery",
+      "risk_score": 22,
+      "temperature_c": 23.5,
+      "wind_kmh": 28.0,
+      "visibility_m": 18000,
+      "driver": "Wind",
+      "impact_level": "Moderate",
+      "impact_summary": "Crosswinds affecting maneuvering."
+    },
+    {
+      "name": "Panama Canal",
+      "category": "Strategic Trade Artery",
+      "risk_score": 10,
+      "temperature_c": 29.1,
+      "wind_kmh": 12.0,
+      "visibility_m": 30000,
+      "driver": "Precipitation",
+      "impact_level": "Minor",
+      "impact_summary": "Routine variability."
+    }
+  ]
+}
